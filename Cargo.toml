@@ -1,0 +1,13 @@
+[package]
+name = "largeint"
+version = "0.1.0"
+authors = ["Maximilian Kahn <maximilian.kahn@questu.ca>"]
+license = "MIT"
+description = "A library that supports large integer arithmetic using LargeInt."
+readme = "README.md"
+documentation = "https://docs.rs/largeint"
+repository = "https://github.com/Starfunk/largeint"
+keywords = ["largeint", "large", "int","bigint","num"]
+categories = ["no-std"]
+
+[dependencies]
