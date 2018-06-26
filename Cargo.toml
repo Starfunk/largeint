@@ -1,13 +1,13 @@
 [package]
 name = "largeint"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Maximilian Kahn <maximilian.kahn@questu.ca>"]
 license = "MIT"
-description = "A library that supports large integer arithmetic using LargeInt."
+description = "A library that supports large integer arithmetic."
 readme = "README.md"
 documentation = "https://docs.rs/largeint"
 repository = "https://github.com/Starfunk/largeint"
-keywords = ["largeint", "large", "int","bigint","num"]
-categories = ["no-std"]
+keywords = ["largeint", "int", "large","integer"]
+categories = ["no-std", "data-structures"]
 
 [dependencies]
