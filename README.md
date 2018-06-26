@@ -28,7 +28,7 @@ The purpose of this library is to provide an easy-to-use large integer implement
 The ideal user is one that is looking to write small scale projects for personal use and does
 not want to spend time a lot of time learning a complex crate such as num-bigint. For example,
 this library would be ideal for one looking to solve [Project Euler Problem 13](https://projecteuler.net/problem=13).
-The largeint library is not particularly efficient and therefore it is recommended to use
+However, the largeint library is not particularly efficient and therefore it is recommended to use
 a crate like num-bigint for more serious projects.
 
 Let's see just how easy it is to start performing large integer arithmetic!
