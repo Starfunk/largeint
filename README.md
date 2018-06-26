@@ -22,7 +22,7 @@ let largeint3 = new(String::from("0"), Sign::Unsigned);
 ```
 An instance of `LargeInt` contains two fields, the scalar value of the integer stored as a `String` and the sign of the integer stored as the enum, `Sign`, which can be `Positive`, `Negative`, or `Unsigned` (note that `0` is the only integer that should be assigned `Unsigned`).
 
-Using `new()` to create an instance of `LargeInt` is highly recommended as there are checks in place to ensure that the the instance of `LargeInt` will be created properly.
+Using `new()` to create an instance of `LargeInt` is highly recommended as there are checks in place to ensure that the the instance of `LargeInt` will be created properly. For example, creating an instance of a `LargeInt` with a scalar value of `0` using `new` will automatically assign `Sign::Unsigned` to the sign of the LargeInt even if you enter another `Sign` variant.  
 
 The purpose of this library is to provide an easy-to-use large integer implementation in Rust.
 The ideal user is one that is looking to write small scale projects for personal use and does
